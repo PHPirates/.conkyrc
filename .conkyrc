@@ -34,7 +34,7 @@ conky.config = {
 
 	alignment= 'top_right',
 	gap_x= 56,
-	gap_y= 0,
+	gap_y= 170,
 	no_buffers= true,
 	text_buffer_size = 2048,
 	uppercase= false,
@@ -63,8 +63,6 @@ ${cpugraph cpu3 50,133 5e7b7b d8deeb -t} ${cpugraph cpu4 50,133 5e7b7b d8deeb -t
 
 ${color3}${downspeedgraph wlp3s0 50,269 5e7b7b d8deeb}
 ${color1}${font FontAwesome}${font}   download ${alignr}${downspeedf wlp3s0}k/s (${totaldown wlp3s0})
-${hr}
 ${font FontAwesome}${font}   upload ${alignr}${upspeedf wlp3s0}k/s (${totalup wlp3s0})
-${color3}${upspeedgraph wlp3s0 50,269 99c8e8 618094}
 
 ]]
