@@ -53,7 +53,7 @@ ${alignr}${font Ubuntu:style=Medium:pixelsize=50}${time %H:%M}${font}
 ${voffset 10}
 ${alignr}${font Ubuntu:style=Medium:pixelsize=13}${time %A %d %B %Y}${font}
 
-${voffset 400}
+${voffset 410}
 ${font FontAwesome}${font} ${alignr}${addrs wlp3s0}
 ${hr}
 ${font FontAwesome}${font} ${alignr}${exec curl ipinfo.io/ip}
@@ -64,7 +64,7 @@ ${cpugraph cpu3 50,133 5e7b7b d8deeb -t}
 ${cpugraph cpu4 50,133 5e7b7b d8deeb -t}
 
 ${color3}${downspeedgraph wlp3s0 50,269 5e7b7b d8deeb}
-${color1}${font FontAwesome}${font}   download ${alignr}${downspeedf wlp3s0}k/s (${totaldown wlp3s0})
 ${font FontAwesome}${font}   upload ${alignr}${upspeedf wlp3s0}k/s (${totalup wlp3s0})
+${color1}${font FontAwesome}${font}   download ${alignr}${downspeedf wlp3s0}k/s (${totaldown wlp3s0})
 
 ]]
